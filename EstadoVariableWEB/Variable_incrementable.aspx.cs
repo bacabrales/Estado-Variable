@@ -22,13 +22,29 @@ namespace EstadoVariableWEB
 
         protected void btnIncrementar_Click(object sender, EventArgs e)
         {
-            if(ViewState["conteo"] != null)
+            //Variable de estado
+            /*if(ViewState["conteo"] != null)
             {
                 numero = (int)ViewState["conteo"] + 1;
                 
             }
             txtNumero.Text = numero.ToString();
-            ViewState["conteo"] = numero;
+            ViewState["conteo"] = numero;*/
+
+
+            //Variable de session
+            if (Session["conteo"] != null)
+            {
+                numero = (int)Session["conteo"] + 1;
+
+            }
+            txtNumero.Text = numero.ToString();
+            Session["conteo"] = numero;
+        }
+
+        protected void btnCambiar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("https://localhost:44399/WebForm2.aspx");
         }
     }
 }

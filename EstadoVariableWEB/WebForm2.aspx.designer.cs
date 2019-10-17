@@ -10,7 +10,7 @@
 namespace EstadoVariableWEB {
     
     
-    public partial class Variable_incrementable {
+    public partial class WebForm2 {
         
         /// <summary>
         /// Control form1.
@@ -38,14 +38,5 @@ namespace EstadoVariableWEB {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnIncrementar;
-        
-        /// <summary>
-        /// Control btnCambiar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCambiar;
     }
 }

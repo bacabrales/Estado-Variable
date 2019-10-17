@@ -13,6 +13,7 @@
         </div>
         <asp:TextBox ID="txtNumero" runat="server"></asp:TextBox>
         <asp:Button ID="btnIncrementar" runat="server" OnClick="btnIncrementar_Click" Text="Incrementar" />
+        <asp:Button ID="btnCambiar" runat="server" OnClick="btnCambiar_Click" Text="Cambiar" />
     </form>
 </body>
 </html>

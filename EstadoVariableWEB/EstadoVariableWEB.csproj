@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Variable_incrementable.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="Variable_incrementable.aspx.designer.cs">
       <DependentUpon>Variable_incrementable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
